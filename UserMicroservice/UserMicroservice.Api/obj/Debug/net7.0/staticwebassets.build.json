@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "85iJ40nJRf4F8TjMvkDL2LJVaswHjftZ0EImuaZV6go=",
+  "Source": "UserMicroservice.Api",
+  "BasePath": "_content/UserMicroservice.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\bin\Debug\net7.0\UserMicroservice.Shared.deps.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\bin\Debug\net7.0\UserMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\bin\Debug\net7.0\UserMicroservice.Shared.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\refint\UserMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\UserMicroservice.Shared.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.Shared\obj\Debug\net7.0\ref\UserMicroservice.Shared.dll

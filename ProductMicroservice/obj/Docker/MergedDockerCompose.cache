@@ -1,0 +1,35 @@
+name: dockercompose10548215195390683233
+services:
+  productmicroservice.webapi:
+    build:
+      context: C:\Users\david\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\ProductMicroservice
+      dockerfile: ProductMicroservice.WebApi/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: productmicroservicewebapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\david\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\david\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose10548215195390683233_default

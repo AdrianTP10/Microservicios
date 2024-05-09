@@ -1,0 +1,17 @@
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.DataAccess.deps.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.DataAccess.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.Core.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\bin\Debug\net7.0\UserMicroservice.Core.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\refint\UserMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\UserMicroservice.DataAccess.genruntimeconfig.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\UserMicroservice\UserMicroservice.DataAccess\obj\Debug\net7.0\ref\UserMicroservice.DataAccess.dll

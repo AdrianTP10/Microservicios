@@ -1,0 +1,12 @@
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\bin\Debug\net7.0\ConsoleTest.Core.deps.json
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\bin\Debug\net7.0\ConsoleTest.Core.dll
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\bin\Debug\net7.0\ConsoleTest.Core.pdb
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.AssemblyInfo.cs
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.dll
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\refint\ConsoleTest.Core.dll
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ConsoleTest.Core.pdb
+C:\Users\david\source\repos\ConsoleTest\ConsoleTest.Core\obj\Debug\net7.0\ref\ConsoleTest.Core.dll

@@ -1,0 +1,11 @@
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\bin\Debug\net7.0\PaymentMicroservice.Shared.deps.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\bin\Debug\net7.0\PaymentMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\bin\Debug\net7.0\PaymentMicroservice.Shared.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\refint\PaymentMicroservice.Shared.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\PaymentMicroservice.Shared.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.Shared\obj\Debug\net7.0\ref\PaymentMicroservice.Shared.dll

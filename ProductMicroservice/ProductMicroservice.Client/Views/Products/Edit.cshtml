@@ -1,0 +1,63 @@
+﻿@model ProductMicroservice.Core.Products.Product
+
+@{
+    Layout = "~/Pages/_LayoutPrincipal.cshtml";
+}
+
+@section Head {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Product Edit</h3>
+        </div>
+        <div class="col">
+            <a asp-action="Index" class="btn btn-outline-info float-end">Back</a>
+        </div>
+    </div>
+    <hr>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-check-label">Name</label>
+            <input type="text" class="form-control" asp-for="Name">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="form-check-label">Description</label>
+            <input type="text" class="form-control" asp-for="Description">
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Brand" class="form-check-label">Brand</label>
+            <input type="text" class="form-control" asp-for="Brand">
+            <span asp-validation-for="Brand" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Category" class="form-check-label">Category</label>
+            <input type="text" class="form-control" asp-for="Category">
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-check-label">Price</label>
+            <input type="number" class="form-control" asp-for="Price">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+</div>

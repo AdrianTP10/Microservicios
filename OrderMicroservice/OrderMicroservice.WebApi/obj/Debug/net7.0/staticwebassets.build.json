@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EsUCEn0EVfGwZRgTm7L1oBw40Jp11F4y0QeihCsXnzY=",
+  "Source": "OrderMicroservice.WebApi",
+  "BasePath": "_content/OrderMicroservice.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProductMicroservice.Client
+build_property.RootNamespace = ProductMicroservice.Client
+build_property.ProjectDir = C:\Users\david\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\ProductMicroservice\ProductMicroservice.Client\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\david\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\ProductMicroservice\ProductMicroservice.Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Shared/Components/AppMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQXBwTWVudVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Shared/Components/AppMenu/_UserMenuItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcQXBwTWVudVxfVXNlck1lbnVJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/_LayoutPrincipal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dFByaW5jaXBhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/_ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1Byb2R1Y3RMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/OneDrive/Documentos/GitHub/CRUD9_IrvingTorres_DavidJimenez/ProductMicroservice/ProductMicroservice.Client/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p6c73i47x7

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroservice.WebApi", "OrderMicroservice.WebApi\OrderMicroservice.WebApi.csproj", "{574C5345-4B21-44E6-8267-F7B99356EA5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroservice.Core", "OrderMicroservice.Core\OrderMicroservice.Core.csproj", "{0D942C1D-5919-45E3-BD30-858A62DA652E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroservice.DataAccess", "OrderMicroservice.DataAccess\OrderMicroservice.DataAccess.csproj", "{0571A65B-6845-44BC-8647-8D3B8DA9434B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroservice.ApplicationServices", "OrderMicroservice.ApplicationServices\OrderMicroservice.ApplicationServices.csproj", "{364324B0-1EC3-41B9-9260-F43BDBEBFF39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderMicroservice.NUnitTest", "OrderMicroservice.NUnitTest\OrderMicroservice.NUnitTest.csproj", "{E5E712E7-9D94-4533-B6B5-337B8A3C36F5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{97942E32-ED3F-492C-84DA-85562FB6B09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderMicroservice.Client", "OrderMicroservice.Client\OrderMicroservice.Client.csproj", "{46F989D0-64F2-4636-A76A-A454DC7C9B9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574C5345-4B21-44E6-8267-F7B99356EA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574C5345-4B21-44E6-8267-F7B99356EA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574C5345-4B21-44E6-8267-F7B99356EA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574C5345-4B21-44E6-8267-F7B99356EA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D942C1D-5919-45E3-BD30-858A62DA652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D942C1D-5919-45E3-BD30-858A62DA652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D942C1D-5919-45E3-BD30-858A62DA652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D942C1D-5919-45E3-BD30-858A62DA652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0571A65B-6845-44BC-8647-8D3B8DA9434B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0571A65B-6845-44BC-8647-8D3B8DA9434B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0571A65B-6845-44BC-8647-8D3B8DA9434B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0571A65B-6845-44BC-8647-8D3B8DA9434B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364324B0-1EC3-41B9-9260-F43BDBEBFF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364324B0-1EC3-41B9-9260-F43BDBEBFF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364324B0-1EC3-41B9-9260-F43BDBEBFF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364324B0-1EC3-41B9-9260-F43BDBEBFF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E712E7-9D94-4533-B6B5-337B8A3C36F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E712E7-9D94-4533-B6B5-337B8A3C36F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E712E7-9D94-4533-B6B5-337B8A3C36F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E712E7-9D94-4533-B6B5-337B8A3C36F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97942E32-ED3F-492C-84DA-85562FB6B09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97942E32-ED3F-492C-84DA-85562FB6B09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97942E32-ED3F-492C-84DA-85562FB6B09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97942E32-ED3F-492C-84DA-85562FB6B09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F989D0-64F2-4636-A76A-A454DC7C9B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F989D0-64F2-4636-A76A-A454DC7C9B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F989D0-64F2-4636-A76A-A454DC7C9B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F989D0-64F2-4636-A76A-A454DC7C9B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A11A549-A40D-4FC1-88D2-603839ECF9FD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.DataAccess.deps.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.DataAccess.runtimeconfig.json
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.DataAccess.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.Core.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\bin\Debug\net7.0\PaymentMicroservice.Core.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\refint\PaymentMicroservice.DataAccess.dll
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.pdb
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\PaymentMicroservice.DataAccess.genruntimeconfig.cache
+C:\Users\Adria\OneDrive\Documentos\GitHub\CRUD9_IrvingTorres_DavidJimenez\PaymentMicroservice\PaymentMicroservice.DataAccess\obj\Debug\net7.0\ref\PaymentMicroservice.DataAccess.dll

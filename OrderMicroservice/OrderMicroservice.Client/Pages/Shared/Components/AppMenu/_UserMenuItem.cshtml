@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@using OrderMicroservice.Core.Navigation
+
+@model OrderMicroservice.Client.Models.UserMenuItemViewModel
+
+@{
+    var orderedChildMenuItems = Model.MenuItem.Items.OrderBy(x => x.Order);
+}
+
+@if(Model.MenuItem.Items.Count < 1)
+{
+    <li class="nav-item">
+        <a class="nav-link @(Model.MenuItem.IsMenuActive(Model.CurrentPageName) ? "active" : "") @(Model.MenuItem.IsMenuActive(Model.CurrentPageName) ? "aria\"page\"" : "") href="#">@Model.MenuItem.DisplayName</a>
+    </li>
+}else{
+    string currentElement = "menu-" + new Random().Next();
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle @(Model.MenuItem.IsMenuActive(Model.CurrentPageName) ? " active" : "" ) href="#" id="@currentElement" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            @Model.MenuItem.DisplayName
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="@currentElement">
+            @foreach(var SubMenu in Model.MenuItem.Items)
+            {
+                <li><a class="dropdown-item" href="@SubMenu.Url">@SubMenu.DisplayName</a></li>
+            }
+        </ul>
+    </li>
+
+}
+

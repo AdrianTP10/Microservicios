@@ -1,0 +1,114 @@
+﻿@model OrderMicroservice.Core.OrdersDTO.OrderDTO
+
+@using OrderMicroservice.Core.Products
+@using OrderMicroservice.Core.Users
+
+@{
+    Layout = "~/Pages/_LayoutPrincipal.cshtml";
+}
+
+@section Head {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Views/OrderComplete/Create.js"></script>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Order Registration</h3>
+        </div>
+        <div class="col">
+            <a asp-action="Index" class="btn btn-outline-info float-end">Back</a>
+        </div>
+    </div>
+    <hr>
+    <form asp-action="CreateComplete">
+        <div class="mb-3">
+            <label asp-for="OrderDate" class="form-check-label">OrderDate</label>
+            <input type="text" class="form-control" asp-for="OrderDate">
+            <span asp-validation-for="OrderDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="StatusOrder" class="form-check-label">Status</label>
+            <input type="text" class="form-control" asp-for="StatusOrder">
+            <span asp-validation-for="StatusOrder" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ArriveOrder" class="form-check-label">Arrive</label>
+            <input type="text" class="form-control" asp-for="ArriveOrder">
+            <span asp-validation-for="ArriveOrder" class="text-danger"></span>
+        </div>
+        <h5>Product</h5>
+        <hr>
+        <div class="mb-3">
+            <label asp-for="Product.Name" class="form-check-label">Name</label>
+            <input type="text" class="form-control" asp-for="Product.Name">
+            <span asp-validation-for="Product.Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Product.Description" class="form-check-label">Description</label>
+            <input type="text" class="form-control" asp-for="Product.Description">
+            <span asp-validation-for="Product.Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Product.Brand" class="form-check-label">Brand</label>
+            <input type="text" class="form-control" asp-for="Product.Brand">
+            <span asp-validation-for="Product.Brand" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Product.Category" class="form-check-label">Category</label>
+            <input type="text" class="form-control" asp-for="Product.Category">
+            <span asp-validation-for="Product.Category" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Product.Price" class="form-check-label">Price</label>
+            <input type="number" class="form-control" asp-for="Product.Price">
+            <span asp-validation-for="Product.Price" class="text-danger"></span>
+        </div>
+        <h5>User</h5>
+        <hr>
+        <div class="mb-3">
+            <label asp-for="User.FirstName" class="form-check-label">Name</label>
+            <input type="text" class="form-control" asp-for="User.FirstName">
+            <span asp-validation-for="User.FirstName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="User.LastName" class="form-check-label">Last Name</label>
+            <input type="text" class="form-control" asp-for="User.LastName">
+            <span asp-validation-for="User.LastName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="User.Role" class="form-check-label">Role</label>
+            <input type="text" class="form-control" asp-for="User.Role">
+            <span asp-validation-for="User.Role" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="User.Birthday" class="form-check-label">Birthday</label>
+            <input type="text" class="form-control" asp-for="User.Birthday">
+            <span asp-validation-for="User.Birthday" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <h5>City</h5>
+            <hr>
+            <div class="mb-3">
+                <label asp-for="User.City.Name" class="form-check-label">City Name</label>
+                <input type="text" class="form-control" asp-for="User.City.Name">
+                <span asp-validation-for="User.City.Name" class="text-danger"></span>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+</div>

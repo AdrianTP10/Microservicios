@@ -1,0 +1,32 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+  productdb:
+    container_name: mysql-db
+    image: mysql:8.0.29-oracle
+    environment:    
+        - MYSQL_ROOT_PASSWORD=password@12345#
+    ports:
+        - 18013:3306
+    networks:
+        - backend
+  productmicroservice.webapi:
+    container_name: products-api
+    image: ${DOCKER_REGISTRY-}productmicroservicewebapi
+    build:
+        context: .
+        dockerfile: ProductMicroservice.WebApi/Dockerfile
+    networks:
+    - backend
+    ports:
+    - 8004:80
+    depends_on:
+    - productdb
+    environment:
+    - ASPNETCORE_ENVIRONMENT=Development 
+    - DB_HOST=productdb
+    - DB_NAME=productmicroservice
+    - DB_ROOT_PASSWORD=password@12345#

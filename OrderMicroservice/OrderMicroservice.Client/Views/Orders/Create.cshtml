@@ -1,0 +1,88 @@
+﻿@model OrderMicroservice.Core.OrdersDTO.OrderClean
+
+@using OrderMicroservice.Core.Products
+@using OrderMicroservice.Core.Users
+@inject IHttpClientFactory _httpClientFactory;
+
+@{
+    Layout = "~/Pages/_LayoutPrincipal.cshtml";
+
+    //Obtener el listado de productos
+    List<Product> productList = new List<Product>();
+    //Crea el httpclient
+    var clientProduct = _httpClientFactory.CreateClient("WebApi");
+    //Obtiene la lista
+    productList = await clientProduct.GetFromJsonAsync<List<Product>>("https://localhost:7240/Product");
+
+    //Obtener el listado de usuarios
+    List<User> userList = new List<User>();
+    //Crea el httpclient
+    var clientUser = _httpClientFactory.CreateClient("WebApi");
+    //Obtiene la lista
+    userList = await clientUser.GetFromJsonAsync<List<User>>("https://localhost:7016/api/Users");
+}
+
+@section Head {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Views/OrderClean/Create.js"></script>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Order Registration</h3>
+        </div>
+        <div class="col">
+            <a asp-action="Index" class="btn btn-outline-info float-end">Back</a>
+        </div>
+    </div>
+    <hr>
+    <form asp-action="Create">
+        <div class="mb-3">
+            <label asp-for="OrderDate" class="form-check-label">OrderDate</label>
+            <input type="text" class="form-control" asp-for="OrderDate">
+            <span asp-validation-for="OrderDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Status" class="form-check-label">Status</label>
+            <input type="text" class="form-control" asp-for="Status">
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+        <h5>Product</h5>
+        <hr>
+        <div class="mb-3">
+            <select class="form-control" asp-for="IdProduct">
+                @foreach(var product in productList)
+                {
+                    <option value="@product.Id">@product.Id - @product.Name - @product.Description</option>
+                }
+            </select>
+            <span asp-validation-for="IdProduct" class="text-danger"></span>
+        </div>
+        <h5>User</h5>
+        <hr>
+        <div class="mb-3">
+            <select class="form-control" asp-for="IdUser">
+                @foreach(var user in userList)
+                {
+                    <option value="@user.Id">@user.Id - @user.FirstName @user.LastName</option>
+                }
+            </select>
+            <span asp-validation-for="IdUser" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+</div>

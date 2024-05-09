@@ -1,0 +1,31 @@
+version: '3.4'
+
+networks:
+  backend:
+
+services:
+  paymentsdb:
+    container_name: mysql-payments
+    image: mysql:8.0.29-oracle
+    environment:
+     - MYSQL_ROOT_PASSWORD=password@12345#
+    ports:
+     - 18004:3306
+    networks:
+     - backend
+  paymentmicroservice.api:
+    container_name: payment-api
+    image: ${DOCKER_REGISTRY-}paymentmicroserviceapi
+    build:
+      context: .
+      dockerfile: PaymentMicroservice.Api/Dockerfile
+    networks:
+      - backend
+    ports:
+     - 8004:80
+    depends_on:
+      - paymentsdb
+    environment:
+      - DB_HOST=paymentsdb
+      - DB_NAME=paymentsmicroservice
+      - DB_ROOT_PASSWORD=password@12345#

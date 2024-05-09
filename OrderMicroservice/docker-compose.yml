@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ordermicroservice.webapi:
+    image: ${DOCKER_REGISTRY-}ordermicroservicewebapi
+    build:
+      context: .
+      dockerfile: OrderMicroservice.WebApi/Dockerfile

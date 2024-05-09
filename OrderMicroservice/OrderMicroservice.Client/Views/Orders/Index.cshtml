@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model OrderMicroservice.Client.Models.OrderViewModel
+@using OrderMicroservice.Core.Orders
+@{
+    Layout = "~/Pages/_LayoutPrincipal.cshtml";
+    List<Order> orders = Model.Orders.OrderBy(order => order.Id).ToList();
+}
+
+<div class="container-sm">
+    <div class="row">
+        <div class="col">
+            <h2>Order</h2>
+        </div>
+        <div class="col">
+            <form asp-action="Index" class="input-group mb-3" method="get">
+                <div class="d-flex">
+                    <input type="text" class="form-control me-2" id="searchTerm" name="searchTerm" value="@ViewBag.SearchTerm" placeholder="Search by status ..." />
+                    <input type="submit" value="Search" class="btn btn-primary " />
+                </div>
+            </form>
+        </div>
+        <div class="col">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" style="opacity: 0;">
+                <a asp-action="Create" class="btn btn-outline-success">AddOrder</a>
+                <button type="button" class="btn btn-outline-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a asp-action="CreateWithProduct" class="dropdown-item">Add With Product</a></li>
+                    <li><a asp-action="CreateWithUser" class="dropdown-item">Add With User</a></li>
+                    <li><a asp-action="CreateWithUserWithCity" class="dropdown-item">Add With User and City</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a asp-action="CreateComplete" class="dropdown-item">Add With Complete</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.Partial("~/Pages/_OrderList.cshtml", orders)
+    </div>
+
+</div>

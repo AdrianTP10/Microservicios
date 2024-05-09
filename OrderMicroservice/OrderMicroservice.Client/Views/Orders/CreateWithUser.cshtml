@@ -1,0 +1,109 @@
+﻿@model OrderMicroservice.Core.OrdersDTO.OrderWithUser
+
+
+@using OrderMicroservice.ApplicationServices.Cities;
+@using OrderMicroservice.Core.Products
+@using OrderMicroservice.Core.Users
+@inject IHttpClientFactory _httpClientFactory;
+@inject ICityAppServices _citiesAppServices;
+
+@{
+    Layout = "~/Pages/_LayoutPrincipal.cshtml";
+
+    //Obtener el listado de productos
+    List<Product> productList = new List<Product>();
+    //Crea el httpclient
+    var clientProduct = _httpClientFactory.CreateClient("WebApi");
+    //Obtiene la lista
+    productList = await clientProduct.GetFromJsonAsync<List<Product>>("https://localhost:7240/Product");
+
+    //Obtener el listado de usuarios
+    List<City> cityList = new List<City>();
+    cityList = await _citiesAppServices.GetCitiesAsync();
+}
+
+@section Head {
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.structure.min.css" rel="stylesheet" />
+    <link href="~/lib/jqueryui/jquery-ui.theme.min.css" rel="stylesheet" />
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+    <script src="~/lib/jqueryui/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Views/OrderUser/Create.js"></script>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Order Registration</h3>
+        </div>
+        <div class="col">
+            <a asp-action="Index" class="btn btn-outline-info float-end">Back</a>
+        </div>
+    </div>
+    <hr>
+    <form asp-action="CreateWithUser">
+        <div class="mb-3">
+            <label asp-for="OrderDate" class="form-check-label">OrderDate</label>
+            <input type="text" class="form-control" asp-for="OrderDate">
+            <span asp-validation-for="OrderDate" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Status" class="form-check-label">Status</label>
+            <input type="text" class="form-control" asp-for="Status">
+            <span asp-validation-for="Status" class="text-danger"></span>
+        </div>
+        <h5>Product</h5>
+        <hr>
+        <div class="mb-3">
+            <select class="form-control" asp-for="IdProduct">
+                @foreach (var product in productList)
+                {
+                    <option value="@product.Id">@product.Id - @product.Name - @product.Description</option>
+                }
+            </select>
+            <span asp-validation-for="IdProduct" class="text-danger"></span>
+        </div>
+        <h5>User</h5>
+        <hr>
+        <div class="mb-3">
+            <label asp-for="UserDTO.FirstName" class="form-check-label">Name</label>
+            <input type="text" class="form-control" asp-for="UserDTO.FirstName">
+            <span asp-validation-for="UserDTO.FirstName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserDTO.LastName" class="form-check-label">Last Name</label>
+            <input type="text" class="form-control" asp-for="UserDTO.LastName">
+            <span asp-validation-for="UserDTO.LastName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserDTO.Role" class="form-check-label">Role</label>
+            <input type="text" class="form-control" asp-for="UserDTO.Role">
+            <span asp-validation-for="UserDTO.Role" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserDTO.Birthday" class="form-check-label">Birthday</label>
+            <input type="text" class="form-control" asp-for="UserDTO.Birthday">
+            <span asp-validation-for="UserDTO.Birthday" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="UserDTO.IdCity" class="form-check-label">City</label>
+            <select class="form-control" asp-for="UserDTO.IdCity">
+                @foreach (var city in cityList)
+                {
+                    <option value="@city.Id">@city.Id - @city.Name</option>
+                }
+            </select>
+            <span asp-validation-for="UserDTO.IdCity" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mb-3">Submit</button>
+    </form>
+</div>
